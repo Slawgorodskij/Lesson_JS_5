@@ -1,13 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <button type="button" class="btn btn-primary">Primary</button>
     <button type="button" class="btn btn-secondary">Secondary</button>
     <button type="button" class="btn btn-success">Success</button>
@@ -22,8 +21,9 @@
     <!-- Задание. Найдите кнопку с классом .btn-info и сделайте текст в кнопке: "Кнопка".-->
 
     <script>
-        
+      'use strict';
+      let btnInfo = document.querySelector('.btn-info');
+      btnInfo.innerText = 'Кнопка';
     </script>
-</body>
-
+  </body>
 </html>
